@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: email-test
+  mail:
+    host: localhost
+    port: 1025
+    test-connection: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
